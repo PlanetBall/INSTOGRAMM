@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: nosok;
+}
+.banner {
+	height: 700px;
+	background-color: #eaeaea
+}
+.info {
+	height: 1300px;
+	background-color: green;
+}
+.bottom {
+	height: 1800px;
+	background-color: blue
+}
+.main {
+	height: 150px;;
+	display: flex;
+	padding-left: 200px;
+	display: flex;
+	background-color: white;
+}
+.parent {
+	display: flex;
+	width: 1230px;
+	height: 400px;
+	background-color: yellow;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 70px;
+}
+.child {
+	width: 400px;
+	height: 400px;
+	margin-left: 100px;
+	transition: 1s; /*плавное появление*/
+}
+.child:hover {
+	transition: 1s; /*время появления*/
+	transform: scale(1.05); /*расширение*/
+	border-radius: 10px;
+}
+.block {
+	height: 400px;
+	width: 400px;
+	background-color: orange;
+	margin-left: 30px;
+}
+.padding_0 {
+	padding-left: 0
+}
+@font-face {
+	font-family: nosok;
+	src: url(nosok.ttf);
+}
+.comments {
+	height: 750px;
+	width: 1000px;
+	background-color: cyan;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 100px;
+}
+.comment {
+	height: 120px;
+	width: 1000px;
+	background-color: red;
+	margin-top: 30px;
+	border-radius: 30px;
+	display: flex;
+}
+.cimg {
+	width: 150px;
+	background-color: yellow;
+	margin-left: 50px;
+	padding-top: 10px;
+}
+.ava {
+	border-radius: 100px;
+	height: 100px;
+}
+.logo {
+	height: 150px;
+}
+.link {
+	color: lightgrey;
+	margin-left: 70px;
+	margin-top: 50px;
+}
+.potban {
+	text-align: center;
+	width: 600px;
+	height: 320px;
+	margin-top: 50px;
+	margin-left: 200px;
+	padding-top: 100px;
+}
+.lbc {
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.flex {
+	display: flex;
+}
+.button {
+	border-radius: 10px;
+	border-style: none;
+	background-color: cyan;
+	width: 100px;
+	height: 30px;
+}
+.logotype {
+	border-radius: 160px;
+	border-color: green;
+	border-style: solid;
+}
+.chimg {
+	height: 400px;
+	transition: 1s;
+	margin-left: auto;
+	margin-right: auto;
+}
+.chimg:hover {
+	border-radius: 10px;
+	transition: 1s;
+}
+.auto {
+	margin-left: auto;
+	margin-right: auto;
+}
